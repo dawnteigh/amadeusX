@@ -1,25 +1,35 @@
 body {
     background: rgb(164, 125, 253);
-    
+    text-align: center;
+}
+h1 {
+    text-align: center;
 }
 #nav {
     text-align: center;
     background-color: pink;
-    bottom:0px;
-    width:100%;
+    position: relative;
+    width:780px;
     height:20px;
+    margin: 0 auto;
+    font-family: "Verdana";
 }
 #nav:hover {
+    
     text-align: center;
     background-color: pink;
     height:40px;
 }
 #contain {
-    top: 180px;
-    left: 400px;
+    position: relative;
+    overflow: hidden;
+    top: 50%;
+    text-align: center;
     width: 780px;
     height: 450px;
     display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF;
 }
 #text {
     width:780px;
