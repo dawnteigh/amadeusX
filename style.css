@@ -5,34 +5,42 @@ body {
 h1 {
     text-align: center;
 }
-#nav {
+#contain2 {
     text-align: center;
-    background-color: pink;
+    background-color: rgb(164, 125, 253);
     position: relative;
-    width:780px;
+    width:500px;
     height:20px;
     margin: 0 auto;
+    color: white;
     font-family: "Verdana";
 }
-#nav:hover {
-    
+#links {
     text-align: center;
-    background-color: pink;
-    height:40px;
+    height: 20px;
+    color:white;
+    text-decoration: none;
+}
+#links:visited{
+    color: white;
+}
+#links:hover {
+    text-decoration: underline;
 }
 #contain {
     position: relative;
     overflow: hidden;
     top: 50%;
     text-align: center;
-    width: 780px;
+    width: 500px;
     height: 450px;
     display: block;
     margin: 0 auto;
     background-color: #FFFFFF;
 }
 #text {
-    width:780px;
+    width:500px;
     height:450px;
     display: block;
+    overflow: auto;
 }
