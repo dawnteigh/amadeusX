@@ -35,7 +35,6 @@ h1 {
     width: 500px;
     height: 450px;
     display: block;
-    margin: 0 auto;
     background-color: #FFFFFF;
 }
 #text {
@@ -43,4 +42,12 @@ h1 {
     height:450px;
     display: block;
     overflow: auto;
+}
+#page {
+    display: flex;
+    justify-content: center;
+}
+#photo {
+    width:500px;
+    height:450px;
 }
