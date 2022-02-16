@@ -1,5 +1,5 @@
 body {
-    background: rgb(164, 125, 253);
+    background: black;
     text-align: center;
 }
 h1 {
@@ -7,9 +7,9 @@ h1 {
 }
 #contain2 {
     text-align: center;
-    background-color: rgb(164, 125, 253);
+    background-color: black;
     position: relative;
-    width:500px;
+    width:400px;
     height:20px;
     margin: 0 auto;
     color: white;
@@ -33,13 +33,13 @@ h1 {
     overflow: hidden;
     top: 50%;
     text-align: center;
-    width: 500px;
+    width: 400px;
     height: 450px;
     display: block;
     background-color: #FFFFFF;
 }
 #text {
-    width:500px;
+    width:400px;
     height:450px;
     display: block;
     overflow: auto;
@@ -49,11 +49,11 @@ h1 {
     justify-content: center;
 }
 #photo {
-    width:500px;
+    width:auto;
     height:450px;
 }
 #shades {
-    width: 100px;
+    width: 150px;
     height: auto;
     position: absolute;
     

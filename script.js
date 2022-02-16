@@ -1,9 +1,5 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
-
 const shades = document.getElementById("shades");
-shades.style.left = "100px"
+shades.style.left = "400px"
 shades.style.top = "1px"
 /* move to the left */
 function moveShadesLeft() {
@@ -25,7 +21,7 @@ function moveShadesLeft() {
     const leftNumbers = shades.style.left.replace("px", "");
     const left = parseInt(leftNumbers, 10);
   
-    if (left > 0) {
+    if (left >= 0) { /* stretches the page if moved too far */
       shades.style.left = `${left + 1}px`;
     }
   }
@@ -55,7 +51,7 @@ function moveShadesLeft() {
     const topNumbers = shades.style.top.replace("px", "");
     const top = parseInt(topNumbers, 10);
   
-    if (top > 0) {
+    if (top >= 0) { /* stretches the page if moved too far */
       shades.style.top = `${top + 1}px`;
     }
   }
