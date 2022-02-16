@@ -63,10 +63,10 @@ function moveShadesLeft() {
 /* image changing */
 const image =  document.getElementById("photo");
   function changeImage() {
-      if (image.getAttribute('src') == "20211111_172316.jpg") {
-        image.src = "https://www.serebii.net/legendsarceus/requests/83.jpg";
+      if (image.getAttribute('src') === "20220216_165410.jpg") {
+        image.src = "20211111_172316.jpg";
       }
         else {
-          image.src = "20211111_172316.jpg";
+          image.src = "20220216_165410.jpg";
         }
   }

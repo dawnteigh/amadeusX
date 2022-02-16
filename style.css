@@ -59,3 +59,7 @@ h1 {
     position: absolute;
     z-index: 2;   
 }
+.contact {
+    width: 34px;
+    height: 34px;
+}
