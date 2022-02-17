@@ -57,7 +57,8 @@ h1 {
     width: 150px;
     height: auto;
     position: absolute;
-    z-index: 2;   
+    z-index: 2; 
+    transform: rotate(0deg);  
 }
 .contact {
     width: 34px;
