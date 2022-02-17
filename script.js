@@ -1,7 +1,7 @@
 const shades = document.getElementById("shades");
 shades.style.left = "400px"
-shades.style.top = "1px"
-shades.style.transform = "rotate(0deg)"
+shades.style.top = "10px"
+shades.style.transform = "rotate(15deg)"
 /* move to the left */
 function moveShadesLeft() {
     const leftNumbers = shades.style.left.replace("px", "");
@@ -66,17 +66,19 @@ const image =  document.getElementById("photo");
   function changeImage() {
       if (image.getAttribute('src') === "20220216_162554.jpg") {
         image.src = "20211111_172316.jpg";
+        image.title = "His name is Chai!"
       }
         else {
           image.src = "20220216_162554.jpg";
+          image.title = "Where are my shades?"
         }
   }
 /* Rotate shades*/
 function rotateShades() {
-    if (shades.style.transform === "rotate(0deg)") {
-      shades.style.transform = "rotate(15deg)";
+    if (shades.style.transform === "rotate(15deg)") {
+      shades.style.transform = "rotate(0deg)";
     }
       else {
-        shades.style.transform = "rotate(0deg)";
+        shades.style.transform = "rotate(15deg)";
       }
 }

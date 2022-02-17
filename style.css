@@ -40,9 +40,13 @@ h1 {
 #text {
     width: 400px;
     height: 450px;
-    display: block;
+    font-family: verdana, sans-serif;
     overflow: auto;
-    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
 }
 #page {
     display: flex;
@@ -57,10 +61,9 @@ h1 {
     width: 150px;
     height: auto;
     position: absolute;
-    z-index: 2; 
-    transform: rotate(0deg);  
+    z-index: 2;  
 }
 .contact {
-    width: 34px;
-    height: 34px;
+    width: 100px;
+    height: 100px;
 }
