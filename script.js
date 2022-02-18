@@ -67,10 +67,12 @@ const image =  document.getElementById("photo");
       if (image.getAttribute('src') === "20220216_162554.jpg") {
         image.src = "20211111_172316.jpg";
         image.title = "His name is Chai!"
+        image.alt = "Dog Picture"
       }
         else {
           image.src = "20220216_162554.jpg";
           image.title = "Where are my shades?"
+          image.alt = "Donte"
         }
   }
 /* Rotate shades*/
