@@ -38,7 +38,7 @@ h1 {
     display: block;
     background-color: #FFFFFF;
 }
-#text {
+.text {
     width: 400px;
     height: 450px;
     font-family:  'Lucida Sans', verdana, sans-serif;
