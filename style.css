@@ -2,31 +2,16 @@ body {
     text-align: center;
     background: linear-gradient(90deg, black, black, rgb(181, 128, 241));
 }
-h1 {
-    text-align: center;
+#shades {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    z-index: 2;  
 }
-#contain2 {
-    text-align: center;
-    position: relative;
-    width: 400px;
-    height: 20px;
-    margin: 0 auto;
-    color: white;
-    font-family: monospace, verdana, sans-serif;
-    font-size: 12px;
-}
-#links {
-    text-align: center;
-    height: 20px;
-    color: white;
-    text-decoration: none;
-}
-#links:visited {
-    color: white;
-}
-#links:hover {
-    text-decoration: underline;
-
+#page {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
 }
 #contain {
     position: relative;
@@ -49,25 +34,34 @@ h1 {
     flex-direction: column;
     box-sizing: border-box;
     padding: 20px;
-    
-    
-}
-#page {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
 }
 #photo {
     width: auto;
     height: 450px;
 }
-#shades {
-    width: 150px;
-    height: auto;
-    position: absolute;
-    z-index: 2;  
-}
 .contact {
     width: 120px;
     height: 120px;
+}
+#contain2 {
+    text-align: center;
+    position: relative;
+    width: 400px;
+    height: 20px;
+    margin: 0 auto;
+    color: white;
+    font-family: monospace, verdana, sans-serif;
+    font-size: 12px;
+}
+.links {
+    text-align: center;
+    height: 20px;
+    color: white;
+    text-decoration: none;
+}
+.links:visited {
+    color: white;
+}
+.links:hover {
+    text-decoration: underline;
 }

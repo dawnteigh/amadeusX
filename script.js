@@ -2,6 +2,7 @@ const shades = document.getElementById("shades");
 shades.style.left = "400px"
 shades.style.top = "10px"
 shades.style.transform = "rotate(15deg)"
+
 /* move to the left */
 function moveShadesLeft() {
     const leftNumbers = shades.style.left.replace("px", "");
@@ -61,6 +62,7 @@ function moveShadesLeft() {
       moveShadesDown();
     }
   });
+
 /* image changing */
 const image =  document.getElementById("photo");
   function changeImage() {
@@ -75,6 +77,7 @@ const image =  document.getElementById("photo");
           image.alt = "Donte"
         }
   }
+  
 /* Rotate shades*/
 function rotateShades() {
     if (shades.style.transform === "rotate(15deg)") {
