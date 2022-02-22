@@ -43,6 +43,10 @@ body {
     width: 120px;
     height: 120px;
 }
+.contact:hover {
+    width: 150px;
+    height: 150px;
+}
 #contain2 {
     text-align: center;
     position: relative;
