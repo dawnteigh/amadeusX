@@ -1,6 +1,6 @@
 const shades = document.getElementById("shades");
-shades.style.left = "400px"
-shades.style.top = "10px"
+shades.style.left = "200px"
+shades.style.top = "50px"
 shades.style.transform = "rotate(15deg)"
 
 /* move to the left */
@@ -68,22 +68,25 @@ const image =  document.getElementById("photo");
   function changeImage() {
       if (image.getAttribute('src') === "20220216_162554.jpg") {
         image.src = "20211111_172316.jpg";
-        image.title = "His name is Chai!"
-        image.alt = "Dog Picture"
+        image.title = "His name is Chai!";
+        image.alt = "A picture of my dachshund loafing.";
+        shades.style.transform = "rotate(0deg)";
       }
         else {
           image.src = "20220216_162554.jpg";
-          image.title = "Where are my shades?"
-          image.alt = "Donte"
+          image.title = "Where are my shades?";
+          image.alt = "Donte";
+          shades.style.transform = "rotate(15deg)";
         }
   }
   
-/* Rotate shades*/
+/* Rotate shades -- removed as redundant; saw that changeImage could accommodate this operation
 function rotateShades() {
-    if (shades.style.transform === "rotate(15deg)") {
-      shades.style.transform = "rotate(0deg)";
+  if (shades.style.transform === "rotate(15deg)") {
+    shades.style.transform = "rotate(0deg)";
+  }
+    else {
+      shades.style.transform = "rotate(15deg)";
     }
-      else {
-        shades.style.transform = "rotate(15deg)";
-      }
 }
+*/
